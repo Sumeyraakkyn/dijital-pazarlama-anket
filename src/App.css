@@ -1,0 +1,53 @@
+body {
+  background-image: url("images/arka.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Sonuç kutusu */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Yüzde resimleri için konteyner */
+.percentage-container {
+  display: none;
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(126, 30, 83, 0.3);
+}
+
+/* Resim stilleri */
+.percentage-image {
+  width: 100%;
+  max-height: 750px;
+  object-fit: cover;
+  border-radius: 15px;
+  display: none;
+  margin-top: 20px;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .percentage-container {
+    max-width: 90%;
+  }
+
+  .percentage-image {
+    max-height: 300px;
+  }
+}
+
+

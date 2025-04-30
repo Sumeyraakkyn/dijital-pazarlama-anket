@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>HESTIA</title>
+    <div class=" text-center py-4"> 
+  </head>
+  <body>
+     <section id="header">
+      <div class=" text-center py-4"> 
+        <div class="container">
+           <h2 class="text-danger font-italic my-4">SORULARI CEVAPLA KOMBİNİNİ OLUŞTUR!</h2>
+        </div>
+      </div>
+     </section>
+     <div class="result py-4 text-center">
+        <div class="container lead">
+          <p class="text-danger font-italic display-4"><span class="text-danger display-4 p-3"> 0%</span>ORANINDA RENKLİ OLACAK</p>
+
+        </div>
+
+     </div>
+
+     <section id="questions">
+       <div>
+        <div class="container">
+           <form class="quastion-form text-center">
+
+            <div class="my-4">
+              <p>1-)Kombininizin hangi kıyafetlerden oluşmasını istiyor musunuz?
+              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="E" checked>
+                <label class="form-check-label">
+                  Tek renk olabilir :)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="H">
+                <label class="form-check-label">
+                   Karışık cıvıl cıvıl ;)                </label>
+              </div>
+                </label>
+              </div>
+            </div>
+            
+            <div class="my-4 text-center">
+          
+              <p>2-)Kombininiz şık ve gösterişli mi olsun ?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" value="E" checked>
+                <label class="form-check-label">
+                  Tabi ki! Ben süslüyüm ayoll!!
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" value="H">
+                <label class="form-check-label">
+                  Sade olsun Selim Bey:)
+                </label>
+              </div>
+                </label>
+              </div>
+            </div>
+            <div class="my-4 text-center">
+              <p>3-)Kıyafetleriniz hangi tarzda olmasını istersiniz?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" value="E" checked>
+                <label class="form-check-label">
+                  Klasik-Şık
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" value="H">
+                <label class="form-check-label">
+                    Günlük-Spor
+                </label>
+              </div>
+                </label>
+              </div>
+            </div>
+            <div class="my-4 text-center">
+              <p>4-)Yaş aralığı nasıl olsun?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" value="E" checked>
+                <label class="form-check-label">
+                    Olgun
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" value="H">
+                <label class="form-check-label">
+                  Genç
+                </label>
+              </div>
+                </label>
+              </div>
+            </div>
+            <div class="text-center">
+               <input type="submit" class="btn btn-dark">
+            </div>
+          </form>
+         </div>
+      </div>
+     </section>
+     <div class="percentage-container">
+      <img src="images/25.jpg" class="percentage-image percentage-image-25">
+      <img src="images/50.jpg" class="percentage-image percentage-image-50">
+      <img src="images/75.jpg" class="percentage-image percentage-image-75">
+      <img src="images/100.jpg" class="percentage-image percentage-image-100">
+    </div>
+    
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="cevapkontrol.js"></script>
+  </body>
+</html>
